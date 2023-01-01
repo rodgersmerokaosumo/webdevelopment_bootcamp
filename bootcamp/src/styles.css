@@ -1,0 +1,183 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fefefa;
+
+}
+nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar  {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+li {
+  margin: 15px 5px;
+}
+.logo {
+  height: 40px;
+  margin: 1px 2px;
+}
+
+section {
+    width: 100%;
+    background-image: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 0 0 0;
+}
+
+.about-me {
+  width: 300px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info {
+  max-width: 300px;
+  margin: 30px;
+}
+
+#main {
+    box-shadow: 2px 2px 5px grey;
+}
+
+.hero {
+    width: 100%;
+    /*height: 250px;*/
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero-info {
+  margin: 30px;
+  max-width: 300px;
+}
+
+.hero-image {
+  height: 300px;
+  width: 300px;
+  margin: 30px;
+}
+
+@media only screen  and (max-width: 600px){
+  .hero-info {
+    width: 700px;
+  }
+
+  .hero-image {
+    visibility: hidden;
+    height: 0px;
+  }
+  
+}
+
+.styled-break {
+  width: 30px;
+  height: 5px;
+  background-color: #9368f9;
+  border-radius: 2.5px;
+  margin: 30px 0 30px 0 ;
+}
+
+.avatar {
+    width: 100px;
+    border-radius: 50px;
+}
+
+#name {
+    font-size: 45px;
+}
+
+div.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.test {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.button {
+    border: 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #ef866c;
+    width: 80px;
+    border-radius: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+}
+
+.button:hover{
+    background-color: #ef744b;
+}
+
+.button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6);
+}
+
+form {
+  margin: 0px 0px 40px 0px;
+}
+
+.input-section {
+  margin: 10px 0px;
+  display: flex;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin:  0px 5px 0px 0px;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width:500px){
+  footer{
+    background-color: blue;
+  }
+}
+
+.fa-regular {
+  margin: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: orangered;
+}
+
+a:active {
+  color: purple;
+}
